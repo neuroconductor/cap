@@ -1,0 +1,5 @@
+import(MASS,multigroup)
+export(capReg,cap_beta)
+importFrom("MASS", "ginv")
+importFrom("multigroup", "FCPCA")
+importFrom("stats", "cov", "pchisq", "pnorm", "qnorm", "quantile", "rnorm", "sd")
