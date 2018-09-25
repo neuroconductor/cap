@@ -16,9 +16,9 @@
 	}
 }
 \details{ For subject \eqn{i} observation \eqn{t} (\eqn{i=1,\dots,n}, \eqn{t=1,\dots,T}), \eqn{y_{it}=(y_{it1},\dots,y_{itp})} was generated from a \eqn{p}-dimensional normal distribution with mean zero and covariance \eqn{\Sigma}, where 
-	\deqn{\Sigma=\Phi\Lambda\Phi},
+	\deqn{\Sigma=\Phi\Lambda\Phi,}
 \eqn{\Phi} is an orthonormal matrix and \eqn{\Lambda=\mathrm{diag}(\lambda_{1},\dots,\lambda_{p})} is a diagonal matrix. The eigenvalues \eqn{\lambda_{ij}} (\eqn{j=1,\dots,p}) satisfies the following log-linear model
-	\deqn{log(\lambda_{ij})=x_{i}^\top\beta_{j}},
+	\deqn{log(\lambda_{ij})=x_{i}^\top\beta_{j},}
 where \eqn{\beta_{j}} is the \eqn{j}th column of \code{beta}.
 }
 \examples{

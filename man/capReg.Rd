@@ -38,11 +38,11 @@ capReg(Y, X, nD = 1, method = c("CAP", "CAP-C"), CAP.OC = FALSE,
 where \eqn{x_{i}} contains explanatory variables of subject \eqn{i}, and \eqn{\beta_{0}} and \eqn{\beta_{1}} are model coefficients.
 
 Parameters \eqn{\gamma} and \eqn{\beta=(\beta_{0},\beta_{1}')'} are study of interest, and we propose to estimate them by maximizing the likelihood function,
-  \deqn{\ell(\beta,\gamma)=-\frac{1}{2}\sum_{i=1}^{n}T_{i}(x_{i}'\beta)-\frac{1}{2}\sum_{i=1}^{n}\exp(-x_{i}'\beta)\gamma'S_{i}\gamma},
+  \deqn{\ell(\beta,\gamma)=-\frac{1}{2}\sum_{i=1}^{n}T_{i}(x_{i}'\beta)-\frac{1}{2}\sum_{i=1}^{n}\exp(-x_{i}'\beta)\gamma'S_{i}\gamma,}
 where \eqn{S_{i}=\sum_{t=1}^{T_{i}}y_{it}y_{it}'}. To estimate \eqn{\gamma}, we impose the following constraint
-  \deqn{\gamma' H\gamma=1},
+  \deqn{\gamma' H\gamma=1,}
 where \eqn{H} is a positive definite matrix. In this study, we consider the choice that
-  \deqn{H=\bar{\Sigma}, \quad \bar{\Sigma}=\frac{1}{n}\sum_{i=1}^{n}\frac{1}{T_{i}}S_{i}}.
+  \deqn{H=\bar{\Sigma}, \quad \bar{\Sigma}=\frac{1}{n}\sum_{i=1}^{n}\frac{1}{T_{i}}S_{i}.}
 
 For higher order projecting directions, an orthogonal constraint is imposed as well.
 }
@@ -62,7 +62,7 @@ For higher order projecting directions, an orthogonal constraint is imposed as w
   \item{minmax}{a logic output, whether the identified \eqn{\gamma} vectors are estimated from the minmax approach. If \code{FALSE}, indicating the eigenvalue condition is not satisfied for any principal component.}
   \item{score}{an output when \code{score.return = TRUE}. A \eqn{n\times nD} matrix of \eqn{\log(\hat{\gamma}'S_{i}\hat{\gamma})} value.}
 }
-\references{Zhao et al. (2018) \emph{Covariate Assisted Principal Regression for Covariance Matrix Outcomes} <doi:https://doi.org/10.1101/425033>
+\references{Zhao et al. (2018) \emph{Covariate Assisted Principal Regression for Covariance Matrix Outcomes} <doi:10.1101/425033>
 }
 \author{
 Yi Zhao, Johns Hopkins University, <zhaoyi1026@gmail.com> 

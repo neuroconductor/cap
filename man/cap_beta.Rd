@@ -32,7 +32,7 @@ cap_beta(Y, X, gamma = NULL, beta = NULL, method = c("asmp", "LLR"),
 }
 }
 \details{ Considering \eqn{y_{it}} are \eqn{p}-dimensional independent and identically distributed random samples from a multivariate normal distribution with mean zero and covariance matrix \eqn{\Sigma_{i}}. We assume there exits a \eqn{p}-dimensional vector \eqn{\gamma} such that \eqn{z_{it}:=\gamma'y_{it}} satisfies the multiplicative heteroscedasticity:
-  \deqn{\log(\mathrm{Var}(z_{it}))=\log(\gamma'\Sigma_{i}\gamma)=\beta_{0}+x_{i}'\beta_{1}},
+  \deqn{\log(\mathrm{Var}(z_{it}))=\log(\gamma'\Sigma_{i}\gamma)=\beta_{0}+x_{i}'\beta_{1},}
 where \eqn{x_{i}} contains explanatory variables of subject \eqn{i}, and \eqn{\beta_{0}} and \eqn{\beta_{1}} are model coefficients.
 
 The \eqn{\beta} coefficient is estimated by maximizing the likelihood function. The asymptotic variance is obtained based on maximum likelihood estimator theory.
@@ -45,7 +45,7 @@ The \eqn{\beta} coefficient is estimated by maximizing the likelihood function. 
     \item{Inference}{point estimate of the \eqn{\beta} coefficient, as well as the corresponding standard error, test statistic, \eqn{p}-value, and the lower and upper bound of the confidence interval.}
     \item{beta.boot}{the estimate of the \eqn{\beta} coefficient in each iteration.}
 }
-\references{Zhao et al. (2018) \emph{Covariate Assisted Principal Regression for Covariance Matrix Outcomes} <doi:https://doi.org/10.1101/425033>
+\references{Zhao et al. (2018) \emph{Covariate Assisted Principal Regression for Covariance Matrix Outcomes} <doi:10.1101/425033>
 }
 \author{
 Yi Zhao, Johns Hopkins University, <zhaoyi1026@gmail.com> 
