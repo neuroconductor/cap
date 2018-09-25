@@ -45,6 +45,8 @@ The \eqn{\beta} coefficient is estimated by maximizing the likelihood function. 
     \item{Inference}{point estimate of the \eqn{\beta} coefficient, as well as the corresponding standard error, test statistic, \eqn{p}-value, and the lower and upper bound of the confidence interval.}
     \item{beta.boot}{the estimate of the \eqn{\beta} coefficient in each iteration.}
 }
+\references{Zhao et al. (2018) \emph{Covariate Assisted Principal Regression for Covariance Matrix Outcomes} <doi:https://doi.org/10.1101/425033>
+}
 \author{
 Yi Zhao, Johns Hopkins University, <zhaoyi1026@gmail.com> 
 

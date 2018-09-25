@@ -62,6 +62,8 @@ For higher order projecting directions, an orthogonal constraint is imposed as w
   \item{minmax}{a logic output, whether the identified \eqn{\gamma} vectors are estimated from the minmax approach. If \code{FALSE}, indicating the eigenvalue condition is not satisfied for any principal component.}
   \item{score}{an output when \code{score.return = TRUE}. A \eqn{n\times nD} matrix of \eqn{\log(\hat{\gamma}'S_{i}\hat{\gamma})} value.}
 }
+\references{Zhao et al. (2018) \emph{Covariate Assisted Principal Regression for Covariance Matrix Outcomes} <doi:https://doi.org/10.1101/425033>
+}
 \author{
 Yi Zhao, Johns Hopkins University, <zhaoyi1026@gmail.com> 
 
