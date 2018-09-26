@@ -50,7 +50,7 @@ function(Y,X,nD=1,method=c("CAP","CAP-C"),CAP.OC=FALSE,max.itr=1000,tol=1e-4,tra
     rownames(Phi.est)<-paste0("V",1:p)
     rownames(beta.est)<-colnames(X)
     
-    if(nD>1)
+    if(ncol(Phi.est)>1)
     {
       DfD<-diag.level(Y,Phi.est)
     }else
