@@ -18,7 +18,5 @@ Description: Performs Covariate Assisted Principal (CAP) Regression for
         <doi:10.1101/425033> for details.
 Depends: MASS, multigroup
 License: GPL (>=2)
-Suggests: 
-    covr,
-    testthat
-biocViews: 
+Suggests: covr, testthat
+biocViews:

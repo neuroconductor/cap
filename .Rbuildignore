@@ -1,3 +1,5 @@
+^\./appveyor\.yml\.bak$
+^\./\.travis\.yml\.bak$
 ^appveyor\.yml$
 ^\.travis\.yml$
 ^DESCRIPTION\.bak$
