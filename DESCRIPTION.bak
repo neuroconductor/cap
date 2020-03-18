@@ -20,3 +20,4 @@ Depends: MASS, multigroup
 License: GPL (>=2)
 Suggests: covr, testthat
 biocViews:
+Remotes:
